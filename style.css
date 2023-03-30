@@ -1,0 +1,73 @@
+.container{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(236, 186, 186, 0.5),
+        rgb(0, 255, 242)
+      );
+      background-size: contain;
+   
+}
+
+
+/* Set the font family and background color for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the title and form */
+  h1 {
+    text-align: center;
+    color: #1abc9c;
+    margin-top: 50px;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #bdc3c7;
+  }
+  
+  /* Style the input fields and button */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  input[type="number"] {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    
+  }
+  input:focus{
+    outline: none;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the result paragraph */
+  #result {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #010101;
+  }
+  
